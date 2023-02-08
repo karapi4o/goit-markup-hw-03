@@ -58,7 +58,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--footertext-bordercolor-color);
 }
 
 .nav {
@@ -133,11 +133,8 @@ img {
   color: var(--active-color);
 }
 
-.main-section {
-  background: var(--base-color);
-}
-
 .main-hero {
+  background: var(--base-color);
   padding: 188px 0;
   text-align: center;
 }
@@ -225,7 +222,7 @@ img {
 
 .team {
   background: var(--footer-logo-studio-color);
-  padding: 120px 15px;
+  padding: 120px 0;
 }
 
 .team-name {
@@ -251,7 +248,7 @@ img {
 }
 
 .post {
-  padding: 16px 32px;
+  padding: 32px 16px;
 }
 
 .name {
@@ -279,19 +276,18 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  padding: 16px 32px;
+  padding: 12px 24px;
   color: var(--iris-color);
   background: var(--footer-logo-studio-color);
   border: 1px solid var(--footertext-bordercolor-color);
   border-radius: 4px;
-  box-shadow: 0px 4px 4px var(--portfolio-btn-color);
 }
 
 .filter:focus,
 .filter:hover {
   color: var(--white-color);
   background: var(--active-color);
-  border-style: dotted;
+  box-shadow: 0px 4px 4px var(--portfolio-btn-color);
 }
 
 .filter:active {
@@ -311,27 +307,30 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 76px;
+  margin-bottom: 76px;
 }
 
 .filter-list-item {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  grid-gap: 48px 20px;
+  grid-gap: 48px 24px;
   margin-right: 0;
-  justify-content: space-between;
 }
 
 .filter-list {
   background-color: var(--white-color);
-  border-bottom: 1px solid var(--footertext-bordercolor-color);
-  border-right: 1px solid var(--footertext-bordercolor-color);
-  border-left: 1px solid var(--footertext-bordercolor-color);
 }
 
 .filter-item {
   text-decoration-line: none;
+}
+
+.filter-text {
+  padding: 32px 0;
+  border-bottom: 1px solid var(--footertext-bordercolor-color);
+  border-right: 1px solid var(--footertext-bordercolor-color);
+  border-left: 1px solid var(--footertext-bordercolor-color);
 }
 
 .filter-buisnes-descr {
@@ -339,7 +338,6 @@ img {
   font-size: 20px;
   line-height: 1.2;
   color: var(--base-color);
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -347,7 +345,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate-color);
-  margin-bottom: 32px;
 }
 
 .footer {
