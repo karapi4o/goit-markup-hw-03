@@ -339,12 +339,14 @@ img {
   line-height: 1.2;
   color: var(--base-color);
   margin-bottom: 8px;
+  padding-left: 16px;
 }
 
 .filter-buisnes {
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate-color);
+  padding-left: 16px;
 }
 
 .footer {
